@@ -10,4 +10,4 @@ for i in range(1024):
     r= requests.post(url, data=payload)
 
 if r.status_code == requests.codes.ok:
-    print('Sucess')
+    print('Success')
